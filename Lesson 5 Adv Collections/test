@@ -1,0 +1,3 @@
+def sum_of_squares
+  (1..2).reduce { |sum,n| sum + (n ** 2) }
+end
